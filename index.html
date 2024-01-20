@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome Page</title>
+    <title>Rectangle Area and Personalized Greeting</title>
 </head>
 <body>
 
 <script>
-    // Declare variables
-    var age = 21; 
-    var isStudent = true; 
-    console.log("Age:", age);
-    console.log("Is Student:", isStudent);
-    alert("Welcome!\n\nGreetings! I'm here to assist you. "
-        + "Age: " + age + ", Student: " + (isStudent ? "Yes" : "No"));
+    var length = 10; 
+    var width = 5;  
+    var area = length * width;
+    console.log("Area of the rectangle:", area);
+    var userName = prompt("What is your name?");
+    alert("Hello, " + userName + "! Welcome to our website!");
 </script>
 
 </body>
